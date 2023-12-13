@@ -1,10 +1,36 @@
-.navbar {
-    padding: 2rem;
+nav {
+    background-color: #33333300;
+    /* Cambia el color de fondo según tus preferencias */
 }
 
-.navbar-collapse {
-    align-items: center;
+.navbar-container {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#navbar-toggler {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin-right: 15px;
+    /* Espaciado entre elementos, ajusta según sea necesario */
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    /* Cambia el color del texto según tus preferencias */
 }
 
 @media screen and (max-width: 767px) {
