@@ -1,13 +1,16 @@
 nav {
     background-color: #33333300;
-    /* Cambia el color de fondo según tus preferencias */
 }
 
-.navbar-container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+}
+
+.logo{
+    width: 75px;
 }
 
 #navbar-toggler {
@@ -15,23 +18,25 @@ nav {
     align-items: center;
 }
 
-.navbar-menu {
+.menu {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-menu li {
+.menu li {
     margin-right: 15px;
-    /* Espaciado entre elementos, ajusta según sea necesario */
 }
 
-.navbar-menu a {
+.menu a {
     text-decoration: none;
     color: white;
-    /* Cambia el color del texto según tus preferencias */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
 }
+
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
