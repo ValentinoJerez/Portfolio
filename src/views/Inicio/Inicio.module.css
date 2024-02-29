@@ -40,3 +40,12 @@
 .ListaRedes a {
     color: black;
 }
+
+/* Sobre Mi */
+.SobreMi {
+    text-align: left;
+}
+
+.SobreMi h2{
+    font-size: 30px;
+}

@@ -24,6 +24,11 @@ function Inicio() {
                 </div>
                 <img src={Perfil} alt="Foto Perfil" className={style.ImagenPerfil} />
             </section>
+            <section className={style.SobreMi}>
+                <h2>Sobre Mi</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia soluta veritatis facere non consequuntur provident
+                    quas possimus tempore nesciunt incidunt, exercitationem sequi atque maxime, beatae ex asperiores, id veniam a.</p>
+            </section>
         </div>
     )
 }
