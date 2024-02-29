@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route } from 'react-router-dom'
+
+import Inicio from './views/Inicio/Inicio'
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-      
+    <div className='App'>
+      <Routes>
+        <Route path="/Inicio" element={<Inicio />}/>
+      </Routes>
     </div>
   )
 }
 
-export default App
+export default App;
