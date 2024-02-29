@@ -1,0 +1,31 @@
+.Presentacion h1{
+    font-size: 40px;
+    text-align: left;
+}
+
+.Presentacion p{
+    font-size: 18px;
+    text-align: left;
+}
+
+.ImagenPerfil{
+    width: 400px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.Redes{
+    display: flex;
+}
+
+.ListaRedes{
+    display: inline;
+}
+
+.ListaRedes li{
+    list-style:  none;
+}
+
+.ListaRedes a{
+    color: black;
+}
