@@ -1,31 +1,42 @@
-.Presentacion h1{
-    font-size: 40px;
+.Presentacion {
+    display: flex;
+    margin-top: 25px;
+}
+
+.Contenido {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.Contenido h1, p{
     text-align: left;
 }
 
-.Presentacion p{
-    font-size: 18px;
-    text-align: left;
-}
-
-.ImagenPerfil{
+.ImagenPerfil {
     width: 400px;
     height: 350px;
     border-radius: 50%;
 }
 
-.Redes{
+.Redes {
     display: flex;
 }
 
-.ListaRedes{
-    display: inline;
+.ListaRedes {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.ListaRedes li{
-    list-style:  none;
+.ListaRedes li {
+    margin-right: 10px;
 }
 
-.ListaRedes a{
+.ListaRedes li {
+    list-style: none;
+}
+
+.ListaRedes a {
     color: black;
 }
