@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+.titulo{
+    font-size: 30px;
+}
+
 .card {
     margin: 10px;
     box-sizing: border-box;

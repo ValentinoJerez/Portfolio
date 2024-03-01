@@ -1,10 +1,20 @@
 .container{
     background-color: rgba(132, 156, 172, 0.507);
+    margin-top:30px;
+}
+
+.titulo{
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.container h3{
+    font-size: 22px;
 }
 
 .containerCards{
-    display: flex; /* Establece el contenedor como un flexbox */
-    justify-content: center; /* Centra horizontalmente las tarjetas */
+    display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 

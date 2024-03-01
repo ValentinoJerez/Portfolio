@@ -17,7 +17,7 @@ import Git from "../../assets/LogoGit.png"
 function Skills() {
     return (
         <div>
-            <h2>Skills</h2>
+            <h2 className={style.titulo}>Skills</h2>
             <div className={style.skillContainer}>
                 <div className={style.card}>
                     <img src={HTML} alt="HTML-Logo" />
