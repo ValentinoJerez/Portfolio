@@ -11,6 +11,8 @@ import Postgre from "../../assets/LogosPostgresql.png"
 import Figma from "../../assets/DeviconFigma.png"
 import Photoshop from "../../assets/DeviconPhotoshop.png"
 import Illustrator from "../../assets/SkillIconsIllustrator.png"
+import GitHub from "../../assets/BiGithub.png"
+import Git from "../../assets/LogoGit.png"
 
 function Skills() {
     return (
@@ -49,6 +51,12 @@ function Skills() {
                 </div>
                 <div className={style.card}>
                     <img src={Illustrator} alt="Illustrator-Logo" />
+                </div>
+                <div className={style.card}>
+                    <img src={GitHub} alt="GitHub-Logo" />
+                </div>
+                <div className={style.card}>
+                    <img src={Git} alt="Git-Logo" />
                 </div>
             </div>
         </div>
