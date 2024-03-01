@@ -1,4 +1,6 @@
 import NavBar from "../../components/NavBar/NavBar";
+import Skills from "../../Sections/Skills/Skills";
+import Formacion from "../../Sections/Formacion/Formacion";
 
 import style from "./Inicio.module.css"
 import Perfil from "../../assets/perfil1SF.png"
@@ -29,6 +31,8 @@ function Inicio() {
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia soluta veritatis facere non consequuntur provident
                     quas possimus tempore nesciunt incidunt, exercitationem sequi atque maxime, beatae ex asperiores, id veniam a.</p>
             </section>
+            <Skills />
+            <Formacion />
         </div>
     )
 }

@@ -13,8 +13,8 @@
 }
 
 .ImagenPerfil {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     border-radius: 50%;
 }
 
@@ -48,4 +48,8 @@
 
 .SobreMi h2{
     font-size: 30px;
+}
+
+.SobreMi p {
+    margin-right: 175px;
 }
