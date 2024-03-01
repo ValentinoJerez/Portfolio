@@ -44,6 +44,12 @@ function Skills() {
                     <img src={Postgre} alt="PostgreSQL-Logo" />
                 </div>
                 <div className={style.card}>
+                    <img src={GitHub} alt="GitHub-Logo" />
+                </div>
+                <div className={style.card}>
+                    <img src={Git} alt="Git-Logo" />
+                </div>
+                <div className={style.card}>
                     <img src={Figma} alt="Figma-Logo" />
                 </div>
                 <div className={style.card}>
@@ -51,12 +57,6 @@ function Skills() {
                 </div>
                 <div className={style.card}>
                     <img src={Illustrator} alt="Illustrator-Logo" />
-                </div>
-                <div className={style.card}>
-                    <img src={GitHub} alt="GitHub-Logo" />
-                </div>
-                <div className={style.card}>
-                    <img src={Git} alt="Git-Logo" />
                 </div>
             </div>
         </div>
