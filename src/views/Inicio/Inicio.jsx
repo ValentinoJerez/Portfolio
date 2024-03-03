@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar/NavBar";
 import Skills from "../../Sections/Skills/Skills";
 import Formacion from "../../Sections/Formacion/Formacion";
+import Proyectos from "../../Sections/Proyectos/Proyectos";
 
 import style from "./Inicio.module.css"
 import Perfil from "../../assets/perfil1SF.png"
@@ -33,6 +34,7 @@ function Inicio() {
             </section>
             <Skills />
             <Formacion />
+            <Proyectos />
         </div>
     )
 }

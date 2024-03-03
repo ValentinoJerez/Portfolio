@@ -1,0 +1,60 @@
+.titulo{
+    font-size: 30px;
+    padding-top: 35px;
+}
+
+.Container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 15px;
+    box-sizing: border-box;
+    width: 610px;
+    height: 575px;
+    background: rgba(217, 217, 217, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    color: black;
+    padding: 10px;
+}
+
+.imagen{
+    width: 575px;
+    height:  300px;
+    border-radius: 15px;
+}
+
+.Link{
+    width: 40px;
+    height:  40px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.links a img {
+    margin-right: 5px; 
+}
