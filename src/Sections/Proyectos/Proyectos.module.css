@@ -35,6 +35,10 @@
     border-radius: 15px;
 }
 
+.imagenTexto h4{
+    font-size: 18px;
+}
+
 .Link{
     width: 40px;
     height:  40px;

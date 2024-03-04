@@ -12,9 +12,9 @@ function Inicio() {
             <NavBar />
             <section className={style.Presentacion}>
                 <div className={style.Contenido}>
-                    <h1>Hola, mi nombre es Valentino Jerez y soy desarrollador web full stack</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia soluta veritatis facere non consequuntur provident
-                        quas possimus tempore nesciunt incidunt, exercitationem sequi atque maxime, beatae ex asperiores, id veniam a.</p>
+                    <h1>Hola, mi nombre Valentino Jerez y soy desarrollador web</h1>
+                    <p>Graduado del Bootcamp de Desarrollo Web Full Stack en Henry, mi pasión por la tecnología y el aprendizaje constante
+                        me ha llevado a participar en el proyecto Oracle ONE en Alura Latam, donde sigo ampliando mis habilidades y conocimientos</p>
                     <div className={style.Redes}>
                         <ul className={style.ListaRedes}>
                             <li><a href="https://www.linkedin.com/in/valentino-jerez/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
@@ -29,8 +29,9 @@ function Inicio() {
             </section>
             <section className={style.SobreMi}>
                 <h2>Sobre Mi</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia soluta veritatis facere non consequuntur provident
-                    quas possimus tempore nesciunt incidunt, exercitationem sequi atque maxime, beatae ex asperiores, id veniam a.</p>
+                <p>Soy Valentino, un apasionado desarrollador web 
+                     con experiencia en la creación de soluciones digitales innovadoras. Mi enfoque se centra en la calidad, la eficiencia y la entrega de resultados excepcionales. Busco constantemente nuevas oportunidades para crecer y contribuir al mundo del desarrollo web.</p>
+                <p></p>
             </section>
             <Skills />
             <Formacion />

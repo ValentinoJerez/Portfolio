@@ -44,6 +44,7 @@
 /* Sobre Mi */
 .SobreMi {
     text-align: left;
+    background-color: rgba(132, 156, 172, 0.507);
 }
 
 .SobreMi h2{
