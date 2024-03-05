@@ -35,8 +35,10 @@ function Proyectos() {
                 <div className={style.card}>
                     <div className={style.imagenTexto}>
                         <img src={DogApp} alt="" className={style.imagen} />
-                        <h4>Barberia Alura</h4>
-                        <p></p>
+                        <h4>Dog´s App</h4>
+                        <p>Para concluir mi trayectoria en el Bootcamp de Henry, desarrolle de manera independiente un proyecto
+                            centrado en el mundo de los perros en la cual el usuario puede buscar y filtrar
+                            por razas especificas, ademas de poder crear perros.</p>
                         <div className={style.links}>
                             <a href="https://github.com/ValentinoJerez/ProyectoIntegradorDogs" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="" className={style.Link} />Repositorio</a>
                         </div>
