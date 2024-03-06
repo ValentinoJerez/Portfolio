@@ -13,7 +13,7 @@ function Formacion() {
                     <div className={style.card}>
                         <img src={AP} alt="AP-Logo" />
                     </div>
-                    <h4>Argentina Programa</h4>
+                    <h4>Desarrollo Web Full Stack</h4>
                     <h5>2022 - 2023</h5>
                 </div>
                 <div>
