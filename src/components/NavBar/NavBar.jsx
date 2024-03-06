@@ -1,5 +1,3 @@
-import React, { useRef, useEffect } from 'react';
-
 import style from "./NavBar.module.css"
 
 function NavBar() {
