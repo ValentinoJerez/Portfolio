@@ -13,9 +13,9 @@ function Inicio() {
             <NavBar />
             <section className={style.Presentacion}>
                 <div className={style.Contenido}>
-                    <h1>Hola, mi nombre es Valentino Jerez y soy desarrollador web</h1>
+                    <h1>¡Hola! Mi nombre es Valentino Jerez y soy desarrollador web</h1>
                     <p>Graduado del Bootcamp de Desarrollo Web Full Stack en Henry, mi pasión por la tecnología y el aprendizaje constante
-                        me ha llevado a participar en el proyecto Oracle ONE en Alura Latam, donde sigo ampliando mis habilidades y conocimientos</p>
+                        me ha llevado a participar actualmente en el proyecto Oracle ONE en Alura Latam, donde sigo ampliando mis habilidades y conocimientos</p>
                     <div className={style.Redes}>
                         <ul className={style.ListaRedes}>
                             <li><a href="https://www.linkedin.com/in/valentino-jerez/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
@@ -30,9 +30,12 @@ function Inicio() {
             </section>
             <section className={style.SobreMi}>
                 <h2>Sobre Mi</h2>
-                <p>Soy Valentino, un apasionado desarrollador web 
-                     con experiencia en la creación de soluciones digitales innovadoras. Mi enfoque se centra en la calidad, la eficiencia y la entrega de resultados excepcionales. Busco constantemente nuevas oportunidades para crecer y contribuir al mundo del desarrollo web.</p>
-                <p></p>
+                <p>Soy Valentino, tengo 20 años, soy de Buenos Aires, Argentina.
+                    Disfruto explorando nuevas tecnologías y expandiendo mis habilidades de forma autodidacta.
+                    Siempre estoy buscando oportunidades para aprender y crecer en este emocionante campo.</p>
+                <p>Actualmente, estoy en la búsqueda de mi primer empleo formal. Sueño con encontrar un trabajo que
+                    no solo me permita aplicar mis conocimientos, sino también seguir aprendiendo y creciendo tanto personal como profesionalmente.
+                    Estoy ansioso por embarcarme en esta nueva etapa y contribuir con mi pasión y dedicación a proyectos innovadores.</p>
             </section>
             <Skills />
             <Formacion />

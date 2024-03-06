@@ -1,6 +1,8 @@
 .Presentacion {
     display: flex;
     margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .Contenido {
@@ -27,6 +29,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 .ListaRedes li {
@@ -43,14 +46,19 @@
 
 /* Sobre Mi */
 .SobreMi {
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: left;
     background-color: rgba(132, 156, 172, 0.507);
+    padding: 2px;
 }
 
 .SobreMi h2{
     font-size: 30px;
+    margin-left: 40px;
 }
 
 .SobreMi p {
-    margin-right: 175px;
+    margin-right: 210px;
+    margin-left: 40px;
 }
