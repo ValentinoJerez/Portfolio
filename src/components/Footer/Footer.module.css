@@ -1,6 +1,7 @@
 .footer{
     color: white;
     background-color: black;
+    padding: 5px;
 }
 
 .redes{
@@ -8,12 +9,13 @@
 }
 
 .redes img{
-    padding: 10px;
-    width:  45px;
+    margin-top: 10px;
+    padding: 5px;
+    width:  35px;
 }
 
 .footer p{
     text-align: center;
-    padding: 8px;
     margin: 0; 
+    margin-bottom: 5px;
 }

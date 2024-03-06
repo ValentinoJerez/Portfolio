@@ -16,7 +16,11 @@
 }
 
 .NavBar h3{
-    margin-right: 500px;
+    margin-right: 500px;   
+}
+
+.NavBar a{
+    color: #213547;
 }
 
 .lista {
@@ -36,9 +40,9 @@
 
 .lista li {
     font-size: 18px;
-    color: black;
+    color: #213547;
 }
 
 .lista li a {
-    color: black;
+    color: #213547;
 }

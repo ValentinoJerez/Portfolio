@@ -15,7 +15,7 @@ function Footer() {
                 <a href="https://www.instagram.com/valen_jerez03/" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="Instagram Logo" /></a>
             </div>
             <div>
-                <p>&copy; Valentino Jerez | 2024</p>
+                <p>&copy; Desarrollado por Valentino Jerez | 2024</p>
             </div>
         </footer>
     )

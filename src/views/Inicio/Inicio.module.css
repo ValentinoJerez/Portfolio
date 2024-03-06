@@ -1,6 +1,6 @@
 .Presentacion {
     display: flex;
-    margin-top: 90px;
+    margin-top: 100px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -22,6 +22,7 @@
 
 .Redes {
     display: flex;
+    margin-top: 25px;
 }
 
 .ListaRedes {
@@ -38,10 +39,11 @@
 
 .ListaRedes li {
     list-style: none;
+    color: #213547;
 }
 
 .ListaRedes a {
-    color: black;
+    color: #213547;
 }
 
 /* Sobre Mi */
