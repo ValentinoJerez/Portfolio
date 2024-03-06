@@ -28,18 +28,26 @@ function Inicio() {
                 </div>
                 <img src={Perfil} alt="Foto Perfil" className={style.ImagenPerfil} />
             </section>
-            <section className={style.SobreMi}>
-                <h2>Sobre Mi</h2>
-                <p>Soy Valentino, tengo 20 años, soy de Buenos Aires, Argentina.
-                    Disfruto explorando nuevas tecnologías y expandiendo mis habilidades de forma autodidacta.
-                    Siempre estoy buscando oportunidades para aprender y crecer en este emocionante campo.</p>
-                <p>Actualmente, estoy en la búsqueda de mi primer empleo formal. Sueño con encontrar un trabajo que
-                    no solo me permita aplicar mis conocimientos, sino también seguir aprendiendo y creciendo tanto personal como profesionalmente.
-                    Estoy ansioso por embarcarme en esta nueva etapa y contribuir con mi pasión y dedicación a proyectos innovadores.</p>
-            </section>
-            <Skills />
-            <Formacion />
-            <Proyectos />
+            <div id="Sobre-mi">
+                <section className={style.SobreMi}>
+                    <h2>Sobre Mi</h2>
+                    <p>Soy Valentino, tengo 20 años, soy de Buenos Aires, Argentina.
+                        Disfruto explorando nuevas tecnologías y expandiendo mis habilidades de forma autodidacta.
+                        Siempre estoy buscando oportunidades para aprender y crecer en este emocionante campo.</p>
+                    <p>Actualmente, estoy en la búsqueda de mi primer empleo formal. Sueño con encontrar un trabajo que
+                        no solo me permita aplicar mis conocimientos, sino también seguir aprendiendo y creciendo tanto personal como profesionalmente.
+                        Estoy ansioso por embarcarme en esta nueva etapa y contribuir con mi pasión y dedicación a proyectos innovadores.</p>
+                </section>
+            </div>
+            <div id="Skills">
+                <Skills />
+            </div>
+            <div id="Formacion">
+                <Formacion />
+            </div>
+            <div id="Proyectos">
+                <Proyectos />
+            </div>
             <Footer />
         </div>
     )

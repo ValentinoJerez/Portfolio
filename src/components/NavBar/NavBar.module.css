@@ -1,7 +1,22 @@
 .NavBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.473);
+    z-index: 1000;
+    padding: 10px 40px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     align-items: center;
+    /* margin-top: 18px; */
+    align-items: center;
+    /* margin-left: 40px; */
+    /* margin-right: 500px; */
+}
+
+.NavBar h3{
+    margin-right: 500px;
 }
 
 .lista {
@@ -12,7 +27,7 @@
 }
 
 .item {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .item h4 {
@@ -20,7 +35,7 @@
 }
 
 .lista li {
-    font-size: 20px;
+    font-size: 18px;
     color: black;
 }
 
