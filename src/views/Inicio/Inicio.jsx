@@ -27,7 +27,7 @@ function Inicio() {
                         </ul>
                     </div>
                 </div>
-                <img src={Perfil} alt="Foto Perfil" className={style.ImagenPerfil} />
+                <img src={Perfil} alt="Foto Perfil" className={style.ImagenPerfil}/>
             </section>
             <div id="Sobre-mi">
                 <section className={style.SobreMi}>
