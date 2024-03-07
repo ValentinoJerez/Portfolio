@@ -23,7 +23,7 @@ function Inicio() {
                             <li><a href="https://github.com/ValentinoJerez" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                             <li><a href="https://www.behance.net/valentinojerez" target="_blank" rel="noopener noreferrer">Behance</a></li>
                             <li><a href="https://www.instagram.com/valen_jerez03/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                            <li><a href="http://" target="_blank" rel="noopener noreferrer">Curriculum</a></li>
+                            <li><a href="https://docs.google.com/document/d/1rjFBgGw91rj-5V53xA0CZEdqKMCdSi6yjZDTfoKf4j0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Curriculum</a></li>
                         </ul>
                     </div>
                 </div>
