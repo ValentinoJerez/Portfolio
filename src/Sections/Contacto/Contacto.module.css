@@ -1,0 +1,18 @@
+.Contacto{
+   background-color: rgba(132, 156, 172, 0.507);
+}
+
+.Contacto h2{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.Contacto p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.Contacto h3{
+    font-size: 20px;
+    padding: 10px;
+}

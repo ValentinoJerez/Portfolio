@@ -2,6 +2,7 @@ import NavBar from "../../components/NavBar/NavBar";
 import Skills from "../../Sections/Skills/Skills";
 import Formacion from "../../Sections/Formacion/Formacion";
 import Proyectos from "../../Sections/Proyectos/Proyectos";
+import Contacto from "../../Sections/Contacto/Contacto";
 import Footer from "../../components/Footer/Footer";
 
 import style from "./Inicio.module.css"
@@ -48,6 +49,7 @@ function Inicio() {
             <div id="Proyectos">
                 <Proyectos />
             </div>
+            <Contacto />
             <Footer />
         </div>
     )
