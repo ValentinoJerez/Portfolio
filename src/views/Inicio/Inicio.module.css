@@ -10,7 +10,8 @@
     margin-right: 20px;
 }
 
-.Contenido h1, p{
+.Contenido h1,
+p {
     text-align: left;
 }
 
@@ -35,9 +36,6 @@
 
 .ListaRedes li {
     margin-right: 10px;
-}
-
-.ListaRedes li {
     list-style: none;
     color: #213547;
 }
@@ -50,12 +48,12 @@
 .SobreMi {
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: left;
     background-color: rgba(132, 156, 172, 0.507);
     padding: 2px;
+    text-align: left;
 }
 
-.SobreMi h2{
+.SobreMi h2 {
     font-size: 30px;
     margin-left: 40px;
 }
@@ -63,4 +61,48 @@
 .SobreMi p {
     margin-right: 210px;
     margin-left: 40px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1000px) {
+    .Presentacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ImagenPerfil {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+    }
+
+    .Contenido h1,
+    .Contenido p {
+        text-align: center;
+    }
+
+    .ListaRedes{
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ListaRedes li{
+        align-items: center;
+        text-align: center;
+    }
+
+    .ListaRedes a{
+        align-items: center;
+        text-align: center;
+    }
+
+    .SobreMi h2 {
+        text-align: center;
+    }
+
+    .SobreMi p {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 400px;
+    }
 }

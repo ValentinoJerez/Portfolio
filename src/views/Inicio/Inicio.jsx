@@ -9,7 +9,7 @@ import Perfil from "../../assets/perfil1SF.png"
 
 function Inicio() {
     return (
-        <div>
+        <div className={style.container}>
             <NavBar />
             <section className={style.Presentacion}>
                 <div className={style.Contenido}>

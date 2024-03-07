@@ -44,7 +44,7 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .lista li:nth-child(n+1) {
       display: none;
     }
