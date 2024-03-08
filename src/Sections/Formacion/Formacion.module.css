@@ -21,7 +21,7 @@
 .card {
     margin: 10px;
     box-sizing: border-box;
-    width: 400px;
+    width: 375px;
     height: 250px;
     background: white;
     border: 1px solid white;
@@ -38,4 +38,15 @@
 
 .logo{
     width:  300px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 650px) {
+    .card{
+        flex-direction: row;
+        align-items: center;
+        width: 375px;
+        height: 250px;
+        padding: 10px;
+    }
 }

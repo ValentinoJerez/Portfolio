@@ -1,4 +1,4 @@
-.titulo{
+.titulo {
     font-size: 30px;
     padding-top: 35px;
 }
@@ -29,19 +29,19 @@
     padding: 10px;
 }
 
-.imagen{
+.imagen {
     width: 575px;
-    height:  300px;
+    height: 300px;
     border-radius: 15px;
 }
 
-.imagenTexto h4{
+.imagenTexto h4 {
     font-size: 18px;
 }
 
-.Link{
+.Link {
     width: 40px;
-    height:  40px;
+    height: 40px;
 }
 
 .links {
@@ -60,5 +60,20 @@
 }
 
 .links a img {
-    margin-right: 5px; 
+    margin-right: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 650px) {
+    .imagen {
+        display: none;
+    }
+
+    .card {
+        flex-direction: row;
+        align-items: center;
+        width: 380px;
+        height: 325px;
+        padding: 10px;
+    }
 }

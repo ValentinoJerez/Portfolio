@@ -27,3 +27,16 @@
     font-weight: bolder;
     color: black;
 }
+
+@media only screen and (max-width: 600px) {
+    .skillContainer {
+      flex-direction: column;
+      align-items: center; /* Para centrar verticalmente */
+    }
+  
+    .card {
+      /* width: calc(5
+0% - 50px);  */
+      margin: 10px 0; /* Espacio entre las tarjetas */
+    }
+  }
