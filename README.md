@@ -1,8 +1,8 @@
 # 🚀 Portfolio Web de Valentino Jerez 👨🏻‍💻
 
-¡Bienvenido a mi Portfolio!
+**¡Bienvenido a mi Portfolio!**
 
-Espero te guste, explora mi portfolio para ver ejemplos de mi trabajo, mis skills y contáctame si tienes un proyecto en mente.
+Descubre mis proyectos destacados, mis habilidades y contáctame si quieres trabajar juntos.
 
 Portfolio: https://valentinojerez.vercel.app/
 
