@@ -1,8 +1,20 @@
-# React + Vite
+# 🚀 Portfolio Web de Valentino Jerez 👨🏻‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi Portfolio!
 
-Currently, two official plugins are available:
+Espero te guste, explora mi portfolio para ver ejemplos de mi trabajo, mis skills y contáctame si tienes un proyecto en mente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Portfolio: https://valentinojerez.vercel.app/
+
+### Medios de Contacto 📲
+🌍 Linkedin: https://www.linkedin.com/in/valentino-jerez/
+
+🎨 Behance: https://www.behance.net/valentinojerez
+
+✉️  Email: valenjerez69@gmail.com
+
+### Tecnologías Utilizadas 🛠️
+- ⚛️ **React**
+- 🎨 **CSS puro**
+- 🌀 **Vite**
+- 🚀 **JavaScript**
