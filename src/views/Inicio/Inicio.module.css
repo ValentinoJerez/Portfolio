@@ -68,32 +68,35 @@ p {
     .Presentacion {
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .ImagenPerfil {
         margin: 0 auto;
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .Contenido {
+        margin: 0 auto;
     }
 
     .Contenido h1,
     .Contenido p {
         text-align: center;
+        margin: 0 auto;
+        max-width: 500px;
     }
 
-    .ListaRedes{
-        align-items: center;
-        text-align: center;
-    }
-    
-    .ListaRedes li{
-        align-items: center;
-        text-align: center;
+    .Contenido h1{
+        margin-top: 10px;
+        font-size: 40px;
     }
 
-    .ListaRedes a{
-        align-items: center;
-        text-align: center;
+    .Redes {
+        justify-content: space-around;
     }
 
     .SobreMi h2 {
@@ -103,6 +106,7 @@ p {
     .SobreMi p {
         margin: 0 auto;
         text-align: center;
+        padding: 8px;
         max-width: 400px;
     }
 }

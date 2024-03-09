@@ -1,51 +1,47 @@
 .NavBar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.473);
-    z-index: 1000;
-    padding: 10px 40px;
-    display: flex;
-    align-items: center;
-    align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.473);
+  z-index: 1000;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.NavBar h3{
-    margin-right: 500px;   
+.NavBar h3,
+.item a {
+  line-height: 40px;
 }
 
-.NavBar a{
-    color: #213547;
+.NavBar h4{
+    margin-right: 80px;
+}
+
+.NavBar a {
+  color: #213547;
+  text-decoration: none;
 }
 
 .lista {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .item {
-    margin-left: 15px;
-}
-
-.item h4 {
-    margin: 0;
-}
-
-.lista li {
-    font-size: 18px;
-    color: #213547;
-}
-
-.lista li a {
-    color: #213547;
+  margin-left: 15px;
 }
 
 /* Responsive */
 @media screen and (max-width: 1000px) {
-    .lista li:nth-child(n+1) {
+    .lista li:nth-child(n+0) {
       display: none;
+    }
+    .NavBar h3, h4{
+        font-size: 18px;
     }
   }

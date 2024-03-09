@@ -9,8 +9,8 @@ function NavBar() {
                 <li className={style.item}><a href="#Skills">Skills</a></li>
                 <li className={style.item}><a href="#Formacion">Educacion</a></li>
                 <li className={style.item}><a href="#Proyectos">Proyectos</a></li>
-                <li className={style.item}><h4><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkHWMqCbhrWVCvPxpnxdHbzRhwxptbvKQlvTnkWgfxcgRdtmwqZlQCNbnHVRjtkdKmkcJC" target="_blank" rel="noopener noreferrer"><b>valenjerez69@gmail.com</b></a></h4></li>
             </ul>
+            <h4><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkHWMqCbhrWVCvPxpnxdHbzRhwxptbvKQlvTnkWgfxcgRdtmwqZlQCNbnHVRjtkdKmkcJC" target="_blank" rel="noopener noreferrer"><b>valenjerez69@gmail.com</b></a></h4>
         </div>
     )
 }
